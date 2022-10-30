@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    color: #212121;
+}
+
+.logo {
+    color: #2196F3;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Site-nav */
+
+.site-nav :hover, .coordinates :hover,
+.site-nav :focus, .coordinates :focus {
+color: #2196F3;
+}
+
+
+
+/* #212121 */
+/* #757575 */
+/* #FFFFFF */

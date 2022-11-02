@@ -1,10 +1,15 @@
 body {
     background-color: white;
-    color: #212121;
+    color: #000000;
+    font-family: 'Roboto' sans-serif;
 }
 
 .logo {
     color: #2196F3;
+}
+
+.accent {
+    color: #212121;
 }
 
 ul {
@@ -16,6 +21,12 @@ ul {
 .site-nav :hover, .coordinates :hover,
 .site-nav :focus, .coordinates :focus {
 color: #2196F3;
+}
+
+.button {
+   background-color: #2196F3; 
+   color: #FFFFFF;
+   border-color: #2196F3;
 }
 
 

@@ -1,36 +1,166 @@
+:root {
+    --header-colour: #FFFFFF;
+    --footer-colour: #2F303A;
+    --title-text-colour: #212121;
+    --primary-text-colour: #757575;
+    --background-colour: #F5F5F5;
+    --accent-colour: #2196F3;
+    --button-colour: #F5F4FA;
+}
+
 body {
-    background-color: white;
-    color: #000000;
-    font-family: 'Roboto' sans-serif;
+    background-color: var(--footer-colour);
+    color: var(--primary-text-colour);
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
-    color: #2196F3;
+    color: var(--accent-colour);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
-.accent {
-    color: #212121;
+.logo-accent {
+    color: var(--title-text-colour);
 }
 
 ul {
     list-style: none;
 }
 
-/* Site-nav */
+.section-title {
+    color: var(--title-text-colour);
+}
 
-.site-nav :hover, .coordinates :hover,
-.site-nav :focus, .coordinates :focus {
-color: #2196F3;
+.site-nav .link {
+    color: var(--title-text-colour); 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-colour); 
+}
+
+.site-nav .link.current {
+    color: var(--accent-colour);
+}
+
+.coordinates .link {
+    color: var(--primary-text-colour);
+    text-decoration: none; 
+}
+
+.coordinates .link:hover, .coordinates .link:focus {
+    color: var(--accent-colour);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;  
+}
+
+.coordinates > li {
+    color: var(--header-colour);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.hero-title {
+    color: var(--header-colour);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .button {
-   background-color: #2196F3; 
-   color: #FFFFFF;
-   border-color: #2196F3;
+   color: var(--title-text-colour);
+   background-color: var(--button-colour); 
+   font-family: inherit;
 }
 
+.button.primary {
+    color: var(--header-colour);
+    background-color: var(--accent-colour);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+}
 
+.button.secondary {
+    color: var(--title-text-colour);
+    background-color: var(--background-colour);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
 
-/* #212121 */
-/* #757575 */
-/* #FFFFFF */
+.button.secondary:hover, .button.secondary:focus {
+    color: var(--header-colour);
+    background-color:var(--accent-colour)
+}
+
+.section-adv .section-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.section-adv .section-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.section-works .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-team .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-team .team {
+    color: var(--title-text-colour);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.section-team .prof {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.project-title {
+    color: var(--title-text-colour);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}

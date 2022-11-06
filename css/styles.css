@@ -93,6 +93,7 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    cursor: pointer;
 }
 
 .button.secondary {
@@ -101,6 +102,7 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    cursor: pointer;
 }
 
 .button.secondary:hover, .button.secondary:focus {

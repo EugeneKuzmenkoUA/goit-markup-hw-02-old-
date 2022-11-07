@@ -1,206 +1,210 @@
 :root {
-    --header-colour: #FFFFFF;
-    --footer-colour: #2F303A;
-    --title-text-colour: #212121;
-    --primary-text-colour: #757575;
-    --background-colour: #F5F5F5;
-    --accent-colour: #2196F3;
-    --button-colour: #F5F4FA;
+  --header-colour: #ffffff;
+  --footer-colour: #2f303a;
+  --title-text-colour: #212121;
+  --primary-text-colour: #757575;
+  --background-colour: #f5f5f5;
+  --accent-colour: #2196f3;
+  --button-colour: #f5f4fa;
 }
 
 body {
-    background-color: var(--header-colour);
-    color: var(--primary-text-colour);
-    font-family: 'Roboto', sans-serif;
+  background-color: var(--header-colour);
+  color: var(--primary-text-colour);
+  font-family: "Roboto", sans-serif;
 }
 
 .logo {
-    color: var(--accent-colour);
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+  color: var(--accent-colour);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .header-accent {
-    color: var(--title-text-colour);
+  color: var(--title-text-colour);
 }
 
 .footer {
-    background-color: var(--footer-colour);
+  background-color: var(--footer-colour);
 }
 
 .footer-accent {
-    color: var(--header-colour);
+  color: var(--header-colour);
 }
 
 .footer .coordinates .link {
-    color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .hero {
-    background-color: var(--footer-colour)
+  background-color: var(--footer-colour);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .section-title {
-    color: var(--title-text-colour);
+  color: var(--title-text-colour);
 }
 
 .site-nav .link {
-    color: var(--title-text-colour); 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
+  color: var(--title-text-colour);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-.site-nav .link:hover, .site-nav .link:focus {
-    color: var(--accent-colour); 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-colour);
 }
 
 .site-nav .link.current {
-    color: var(--accent-colour);
+  color: var(--accent-colour);
 }
 
 .coordinates .link {
-    color: var(--primary-text-colour);
-    text-decoration: none; 
+  color: var(--primary-text-colour);
+  text-decoration: none;
 }
 
-.coordinates .link:hover, .coordinates .link:focus {
-    color: var(--accent-colour);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;  
+.coordinates .link:hover,
+.coordinates .link:focus {
+  color: var(--accent-colour);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .coordinates > li {
-    color: var(--header-colour);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+  color: var(--header-colour);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .hero-title {
-    color: var(--header-colour);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
+  color: var(--header-colour);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .button {
-   color: var(--title-text-colour);
-   background-color: var(--button-colour); 
-   font-family: inherit;
+  color: var(--title-text-colour);
+  background-color: var(--button-colour);
+  font-family: inherit;
 }
 
 .button-primary {
-    color: var(--header-colour);
-    background-color: var(--accent-colour);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    cursor: pointer;
+  color: var(--header-colour);
+  background-color: var(--accent-colour);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
 }
 
 .button-secondary {
-    color: var(--title-text-colour);
-    background-color: var(--background-colour);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    cursor: pointer;
+  color: var(--title-text-colour);
+  background-color: var(--background-colour);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
 }
 
-.button-primary:hover, .button-primary:focus,
-.button-secondary:hover, .button-secondary:focus {
-    color: var(--header-colour);
-    background-color:var(--accent-colour)
+.button-primary:hover,
+.button-primary:focus,
+.button-secondary:hover,
+.button-secondary:focus {
+  color: var(--header-colour);
+  background-color: var(--accent-colour);
 }
 
 .section-adv {
-    background-color:var(--background-colour) ;
+  background-color: var(--background-colour);
 }
 
 .section-adv .section-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .section-adv .section-text {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .section-works {
-    background-color:var(--background-colour) ;
+  background-color: var(--background-colour);
 }
 
 .section-works .section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .section-team {
-    background-color:var(--button-colour) ;
+  background-color: var(--button-colour);
 }
 
 .section-team .section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .section-team .team {
-    color: var(--title-text-colour);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+  color: var(--title-text-colour);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .section-team .prof {
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .portfolio {
-    background-color:var(--background-colour) ;
+  background-color: var(--background-colour);
 }
 
 .portfolio-title {
-    color: var(--title-text-colour);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+  color: var(--title-text-colour);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .portfolio-text {
-    color: var(--primary-text-colour);
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
+  color: var(--primary-text-colour);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
